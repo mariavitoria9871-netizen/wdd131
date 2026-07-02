@@ -1,11 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-    </head>
-    <body>
-        <h1>Maria Vitoria</h1>
-    </body>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="WDD 131 – Fundamentos da Web Dinâmica - Maria Vitória. Página inicial do curso com informações pessoais e recursos da Web.">
+    <meta name="author" content="Maria Vitória">
+
+    <title>WDD 131 - Fundamentos da Web Dinâmica - Maria Vitória</title>
+
+    <link rel="stylesheet" href="estilos/base.css">
+
+    <script src="scripts/obterdatas.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>WDD 131: Fundamentos da Web Dinâmica - Maria Vitória</h1>
+
+        <nav>
+            <a href="https://www.linkedin.com/in/vitória-santiago-754187369?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                target="_blank">LinkedIn</a>
+            <a href="https://byupw.instructure.com/" target="_blank">Canvas</a>
+            <a href="https://www.churchofjesuschrist.org/study/scriptures?lang=por" target="_blank">Escrituras</a>
+            <a href="#">Projeto Final</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Maria Vitória</h2>
+
+        <div class="cards">
+
+            <section class="card">
+                <h3>Sobre Mim</h3>
+
+                <img src="imagens/perfil.jpeg" alt="Foto de Maria Vitória">
+
+                <p>
+                    Meu nome é Maria Vitória e moro em Paracatu, Minas Gerais.
+                    Atualmente estudo Desenvolvimento Web no curso WDD 131 da BYU-Idaho.
+                    Gosto de aprender novas tecnologias, desenvolver sites e adquirir novos conhecimentos que contribuam
+                    para meu crescimento profissional.
+                </p>
+
+                <h4>Paracatu - MG</h4>
+                <img src="imagens/Paracatu MG.png" alt="Foto de Paracatu">
+
+                <p>
+                    Paracatu é uma cidade localizada no noroeste de Minas Gerais.
+                    É conhecida por sua história, cultura e pela mineração, além de possuir belas paisagens e um povo
+                    acolhedor.
+                    Tenho orgulho de viver nessa cidade e fazer parte de sua comunidade.
+                </p>
+
+            </section>
+
+            <section class="card">
+                <h3>Recursos Web Dev</h3>
+
+                <ul>
+                    <li><a href="https://developer.mozilla.org/" target="_blank">MDN Web Docs</a></li>
+                    <li><a href="https://www.w3schools.com/" target="_blank">W3Schools</a></li>
+                    <li><a href="https://css-tricks.com/" target="_blank">CSS Tricks</a></li>
+                    <li><a href="https://codepen.io/" target="_blank">CodePen</a></li>
+                    <li><a href="https://fonts.google.com/" target="_blank">Google Fonts</a></li>
+                </ul>
+
+            </section>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <p>&copy; <span id="anoatual"></span> Maria Vitória - Paracatu-MG</p>
+
+        <p id="ultimaModificacao"></p>
+    </footer>
+
+</body>
+
 </html>
