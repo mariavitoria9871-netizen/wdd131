@@ -80,7 +80,7 @@ main h2 {
     float: right;
     margin-left: 15px;
     margin-bottom: 10px;
-    border: 1px splid #ccc;
+    border: 1px solid #ccc;
 }
 
 footer {
