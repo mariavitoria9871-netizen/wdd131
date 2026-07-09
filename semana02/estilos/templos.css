@@ -30,8 +30,12 @@ header h2 {
 }
 
 .navigation {
-    display: flex;
+    display: none;
     flex-direction: column;
+}
+
+.navigation.open {
+    display: flex;
 }
 
 .navigation a {
