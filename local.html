@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página do País">
+    <meta name="author" content="Maria Vitória">
+
+    <title>Página do País</title>
+
+    <link rel="stylesheet" href="styles/local.css">
+
+    <script src="scripts/local.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>Brasil</h1>
+    </header>
+
+    <main>
+
+        <picture>
+            <source srcset="imagens/brasil-large.webp" media="(min-width: 768px)">
+            <img src="imagens/brasil-small.webp" alt="Paisagem do Brasil">
+        </picture>
+
+        <section class="data">
+            <h2>Data</h2>
+            <p><strong>Área:</strong> 8.510.418 km²</p>
+            <p><strong>População:</strong> 203.062.512</p>
+            <p><strong>Capital:</strong> Brasília</p>
+            <p><strong>Idioma:</strong> Português</p>
+            <p><strong>Moeda:</strong> Real (BRL)</p>
+            <p><strong>Fuso Horário:</strong> UTC−3</p>
+        </section>
+
+        <section class="weather">
+            <h2>Clima</h2>
+
+            <img src="imagens/weather.svg" alt="Ícone do clima">
+
+            <p><strong>Temperatura:</strong> <span id="temperature">10</span> °C</p>
+            <p><strong>Vento:</strong> <span id="windspeed">5</span> km/h</p>
+            <p><strong>Sensação térmica:</strong> <span id="windchill"></span></p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Maria Vitória</p>
+        <p>Última Modificação: <span id="lastModified"></span></p>
+    </footer>
+
+</body>
+
+</html>
