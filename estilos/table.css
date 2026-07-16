@@ -1,0 +1,52 @@
+body {
+    padding: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    width: 600px;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+caption {
+    caption-side: bottom;
+    padding: 8px;
+    font-size: 0.9rem;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+thead {
+    background-color: #000;
+    color: white;
+}
+
+thead th {
+    text-align: center;
+}
+
+tbody td {
+    text-align: center;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #eee;
+}
+
+.blank {
+    background-color: #000;
+}
+
+thead th {
+    padding: 1rem;
+    font-size: larger;
+}
+
+/* tr:first-child th {
+    background-color: #333;
+} */
