@@ -1,5 +1,5 @@
 :root {
-    --green: #009c3b;
+    --green: #006400;
     --yellow: #ffdf00;
     --blue: #002776;
     --white: #ffffff;
@@ -14,7 +14,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: #f4f4f4;
+    background: #ffffff;
     color: var(--black);
 }
 
