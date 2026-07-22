@@ -1,0 +1,18 @@
+body {
+    font-family: Roboto, Arial, sans-serif;
+    background-color: #FFFFFF;
+    color: #000000;
+    margin: 20px;
+    line-height: 1.6;
+}
+
+h1,
+h2 {
+    color: #D62828;
+}
+
+pre {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
