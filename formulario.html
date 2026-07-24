@@ -22,12 +22,11 @@
     </header>
 
     <main>
-
         <form method="get" action="review.html">
 
             <label for="produto">Nome do Produto *</label>
             <select id="produto" name="produto" required>
-                <option value="" selected disabled>Selecione um produto...</option>
+                <option value="">Selecione um produto...</option>
                 <option value="produto1">Produto 1</option>
                 <option value="produto2">Produto 2</option>
             </select>
@@ -55,15 +54,17 @@
             <fieldset>
                 <legend>Quais recursos você achou úteis no produto?</legend>
 
-                <label><input type="checkbox" id="durabilidade" name="recursos" value="Durabilidade">
-                    Durabilidade</label>
+                <input type="checkbox" id="durabilidade" name="recursos" value="Durabilidade">
+                <label for="durabilidade">Durabilidade</label>
 
-                <label><input type="checkbox" id="facilidade" name="recursos" value="Facilidade de Uso"> Facilidade de
-                    Uso</label>
+                <input type="checkbox" id="facilidade" name="recursos" value="Facilidade de Uso">
+                <label for="facilidade">Facilidade de Uso</label>
 
-                <label><input type="checkbox" id="desempenho" name="recursos" value="Desempenho"> Desempenho</label>
+                <input type="checkbox" id="desempenho" name="recursos" value="Desempenho">
+                <label for="desempenho">Desempenho</label>
 
-                <label><input type="checkbox" id="design" name="recursos" value="Design"> Design</label>
+                <input type="checkbox" id="design" name="recursos" value="Design">
+                <label for="design">Design</label>
             </fieldset>
 
             <label for="comentario">Avaliação Escrita (Opcional)</label>
