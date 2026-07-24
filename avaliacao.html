@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliação Enviada</title>
+
+    <link rel="stylesheet" href="styles/formulario.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Avaliação Enviada!</h1>
+    </header>
+
+    <main>
+        <h2>Obrigado por enviar sua avaliação.</h2>
+
+        <p>
+            Você enviou
+            <span id="contador">0</span>
+            avaliações.
+        </p>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 | Maria Vitória | Brasil</p>
+    </footer>
+
+    <script>
+        let contador = Number(localStorage.getItem("contador")) || 0;
+        contador++;
+        localStorage.setItem("contador", contador);
+
+        document.getElementById("contador").textContent = contador;
+    </script>
+
+</body>
+
+</html>

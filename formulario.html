@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Formulário de Avaliação de Produto">
+    <meta name="author" content="Gilberto Teixeira">
+
+    <title>Avaliação de Produto</title>
+
+    <link rel="stylesheet" href="styles/formulario.css">
+
+    <script src="scripts/formulario.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>Avaliação de Produto</h1>
+    </header>
+
+    <main>
+
+        <form method="get" action="avaliacao.html">
+
+            <label for="produto">Nome do Produto *</label>
+            <select id="produto" name="produto" required>
+                <option value="" selected disabled>Selecione um Produto...</option>
+            </select>
+
+            <label>Classificação Geral *</label>
+
+            <label><input type="radio" name="classificacao" value="1" required> ☆</label>
+            <label><input type="radio" name="classificacao" value="2"> ☆☆</label>
+            <label><input type="radio" name="classificacao" value="3"> ☆☆☆</label>
+            <label><input type="radio" name="classificacao" value="4"> ☆☆☆☆</label>
+            <label><input type="radio" name="classificacao" value="5"> ☆☆☆☆☆</label>
+
+            <label for="data">Data de Instalação *</label>
+            <input type="date" id="data" name="data" required>
+
+            <fieldset>
+                <legend>Quais recursos você achou úteis no produto?</legend>
+
+                <label><input type="checkbox" id="durabilidade" name="recursos" value="Durabilidade">
+                    Durabilidade</label>
+
+                <label><input type="checkbox" id="facilidade" name="recursos" value="Facilidade de Uso"> Facilidade de
+                    Uso</label>
+
+                <label><input type="checkbox" id="desempenho" name="recursos" value="Desempenho"> Desempenho</label>
+
+                <label><input type="checkbox" id="design" name="recursos" value="Design"> Design</label>
+            </fieldset>
+
+            <label for="comentario">Avaliação Escrita (Opcional)</label>
+            <textarea id="comentario" name="comentario" rows="5"></textarea>
+
+            <label for="nome">Seu Nome (Opcional)</label>
+            <input type="text" id="nome" name="nome">
+
+            <input type="submit" value="Publicar Avaliação">
+
+        </form>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 | Maria Vitória | Brasil</p>
+        <p id="ultima-modificacao"></p>
+    </footer>
+
+</body>
+
+</html>
