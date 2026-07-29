@@ -76,6 +76,27 @@ const templos = [
             "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg"
     },
     // Adicione mais objetos de templos aqui...
+    {
+        nomeDoTemplo: "Belém Brasil",
+        localizacao: "Belém, Brasil",
+        consagracao: "2022, 20 de novembro",
+        area: 28815,
+        urlDaImagem: "imagens/belem.jpg"
+    },
+    {
+        nomeDoTemplo: "Fortaleza Brasil",
+        localizacao: "Fortaleza, Brasil",
+        consagracao: "2019, 2 de junho",
+        area: 36000,
+        urlDaImagem: "imagens/fortaleza.jpg"
+    },
+    {
+        nomeDoTemplo: "Manaus Brasil",
+        localizacao: "Manaus, Brasil",
+        consagracao: "2012, 10 de junho",
+        area: 32032,
+        urlDaImagem: "imagens/manaus.jpg"
+    },
 ];
 
 
